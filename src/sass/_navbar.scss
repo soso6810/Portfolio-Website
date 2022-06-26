@@ -1,0 +1,24 @@
+.navbar{
+  grid-column: main;
+  grid-row: 1/span 1;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  
+  
+  &__logo{
+    transform:rotate(deg) ;
+    width: 4rem;
+  }
+  &__searchIcon{
+    width: 2rem;
+
+  }
+  .icon{
+    fill: aliceblue;
+    
+  
+  }
+}
